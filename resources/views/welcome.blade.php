@@ -46,28 +46,29 @@
             <h2 class="text-xl font-semibold">PEMPROS</h2>
             <div class="mt-3">
                 <!-- Card untuk Materi -->
-                <div class="flex space-x-4 overflow-x-auto">
+                <div class="mb-4 flex space-x-4 overflow-x-auto">
                     <!-- Materi 1 -->
                     <div class="bg-white p-4 border border-gray-300 shadow-sm">
                         <h3 class="font-medium">Programming Paradigm</h3>
                         <ul class="list-none p-0 m-0">
                             <li class="mb-2"><a href="https://youtu.be/JwHW6k0LM5M?v=video5"
                                     class="text-blue-600 hover:text-blue-800">Video 5</a></li>
-                        <h3 class="font-medium">C Programming Language</h3>
-                            <li class="mb-2"><a href=" https://youtu.be/r6gSF1OrzPs?v=video6"
-                                    class="text-blue-600 hover:text-blue-800">Video 6</a></li>
                         </ul>
                     </div>
                     <!-- Materi 2 -->
                     <div class="bg-white p-4 border border-gray-300 shadow-sm">
-                        <h3 class="font-medium">Materi 2</h3>
+                        <h3 class="font-medium">C Programming Language</h3>
                         <ul class="list-none p-0 m-0">
-                            <li class="mb-2"><a href="https://www.youtube.com/watch?v=video7"
-                                    class="text-blue-600 hover:text-blue-800">Video 7</a></li>
-                            <li class="mb-2"><a href="https://www.youtube.com/watch?v=video8"
-                                    class="text-blue-600 hover:text-blue-800">Video 8</a></li>
+                            <li class="mb-2"><a href="https://youtu.be/r6gSF1OrzPs?v=video6"
+                                    class="text-blue-600 hover:text-blue-800">Video 6</a></li>
                         </ul>
                     </div>
+                    <!-- Materi 3 -->
+                    <div class="bg-white p-4 border border-gray-300 shadow-sm">
+                        <h3 class="font-medium">Stream: The Basic Concepts</h3>
+                        <ul class="list-none p-0 m-0">
+                            <li class="mb-2"><a href="https://youtu.be/8o1rkL_HuEE?v=video7"
+                                    class="text-blue-600 hover:text-blue-800">Video 7</a></li>
                 </div>
             </div>
         </div>

@@ -7,20 +7,6 @@ use Illuminate\Support\Str;
 
 class UrlShortenerController extends Controller
 {
-    // public function shortenUrl(Request $request)
-    // {
-    //     $validated = $request->validate([
-    //         'url' => 'required|url'
-    //     ]);
-
-    //     // Generate a random string to represent the shortened URL
-    //     $shortenedUrl = url('/').'/'.Str::random(6);
-
-    //     // Store the long URL and shortened URL (You can save it to the database for persistence)
-
-    //     return redirect()->back()->with('shortened_url', $shortenedUrl);
-    // }
-
     public function shortenUrl(Request $request)
     {
         $validated = $request->validate([

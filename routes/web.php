@@ -116,4 +116,4 @@ Route::get('/Branching Simulation', function () {
 }) -> name('materi');
 
 
-Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post'); 
+Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post');

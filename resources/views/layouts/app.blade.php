@@ -12,12 +12,12 @@
 <!-- Header Section -->
 <div class="flex items-center justify-between py-4 px-8 shadow-md bg-gray-300">
     <div>
-        <h1 class="text-3xl font-bold text-teal-600 ">HIMSI</h1>
+        <a class="text-3xl font-bold text-teal-600 " href="welcome">HIMSI</a>
         <p class="text-gray-500 italic">Practice makes Perfect</p>
     </div>
     <div>
         <ul class="flex space-x-8 text-gray-600">
-            <li><a href="#" class="hover:text-gray-800">Home</a></li>
+            <li><a href="" class="hover:text-gray-800">Home</a></li>
             <li><a href="#" class="hover:text-gray-800">About</a></li>
             <li><a href="#" class="hover:text-gray-800">Contact</a></li>
             <li><a href="shorten" class="hover:text-gray-800">URLShortener</a></li>

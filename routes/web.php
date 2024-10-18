@@ -10,6 +10,11 @@ Route::get('/login', function () {
     return view('login');
 }) -> name('login');
 
+Route::get('/home', function () {
+    return view('homepage');
+}) -> name('home');
+
+
 Route::get('/materi', function () {
     return view('materi');
 }) -> name('materi');

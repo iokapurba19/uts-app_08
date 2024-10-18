@@ -33,6 +33,17 @@ Route::get('/video1', function () {
 
 }) -> name('materi');
 
+Route::get('/video2', function () {
+    return redirect('https://www.youtube.com/watch?v=zo9bYyxKs6c&ab_channel=DasarPemrograman');
+
+}) -> name('materi');
+
+Route::get('/video1', function () {
+    return redirect('https://www.youtube.com/watch?v=zo9bYyxKs6c&ab_channel=DasarPemrograman');
+
+}) -> name('materi');
+
+
 
 
 Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post'); 

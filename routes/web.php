@@ -11,6 +11,10 @@ Route::get('/login', function () {
     return view('login');
 }) -> name('login');
 
+Route::get('/test', function () {
+    return view('test');
+}) -> name('test');
+
 Route::get('/home', function () {
     return view('homepage');
 }) -> name('home');
@@ -21,3 +25,7 @@ Route::get('/materi', function () {
 }) -> name('materi');
 
 Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post'); 
+
+Route::get('/admin', [AuthController::class, 'admin'])->name('admin'); 
+
+Route::get('/video', [AuthController::class, 'video'])->name('video'); 

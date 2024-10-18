@@ -35,15 +35,6 @@
             box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
         }
 
-        .big-card {
-            width: 420px;
-            padding: 30px;
-            background: white;
-            color: black;
-            border-radius: 15px;
-            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
-        }
-
         .wrapper h1 {
             font-size: 36px;
             text-align: center;
@@ -110,41 +101,30 @@
 </head>
 
 <body>
-
-        <div class="wrapper">
-            <form method="POST" action="{{route('login.post')}}">
-                @csrf
-                <h1>Login</h1>
-                <div class="name-box">
-                    <p>Username</p>
-                </div>
-                <div class="input-box">
-                    <input id="email" name="email" type="text" placeholder="Value" required>
-                    <i class='bx bxs-user'></i>
-                </div>
+    <div class="wrapper">
+        <form method="POST" action="{{route('login.post')}}">
+            @csrf
+            <h1>Login</h1>
+			<div class="name-box">
+				<p>Username</p>
+			</div>
+            <div class="input-box">
+                <input id="email" name="email" type="text" placeholder="Value" required>
+                <i class='bx bxs-user'></i>
             </div>
-        </div>
-        <div class="card-matkul" onclick="location.href='tut2/mata_kuliah.html?matkul=2'">
-            <h2>PEMPROS</h2>
-            <div class="card-materi">
-                <!-- Card materi -->
-                <div class="card">
-                    <h3>Materi 1</h3>
-                    <ul>
-                        <!-- Link video pembelajaran -->
-                        <li><a href="https://www.youtube.com/watch?v=video5">Video 5</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=video6">Video 6</a></ li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3>Materi 2</h3>
-                    <ul>
-                        <!-- Link video pembelajaran -->
-                        <li><a href="https://www.youtube.com/watch?v=video7">Video 7</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=video8">Video 8</a></li>
-                    </ul>
-                </div>
+			<div class="name-box">
+				<p>Password</p>
+			</div>
+            <div class="input-box">
+                <input id="password" name="password" type="password" placeholder="Value" required>
+                <i class='bx bxs-lock-alt'></i>
             </div>
-        </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox"> Remember Me</label>
+                <a href="#">Forgot password?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </div>
 </body>
 </html> 

@@ -22,7 +22,7 @@
                     <div class="bg-white p-4 border border-gray-300 shadow-sm">
                         <h3 class="font-medium">Solution Modeling</h3>
                         <ul class="list-none p-0 m-0">
-                            <li class="mb-2"><a href="https://bit.ly/3A6BjNx" class="text-blue-600 hover:text-blue-800">Video 1</a></li>
+                            <li class="mb-2"><a href="https://bit.ly/3A6BjNx" class="text-blue-600 hover:text-blue-800">Solution Modeling</a></li>
                         </ul>
                     </div>
                     <!-- Materi 2 -->
@@ -30,7 +30,7 @@
                         <h3 class="font-medium">Input/Output</h3>
                         <ul class="list-none p-0 m-0">
                             <li class="mb-2"><a href="https://bit.ly/4fbJ1oz"
-                                    class="text-blue-600 hover:text-blue-800">Video 2</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Input/Output</a></li>
                         </ul>
                     </div>
                     <!-- Materi 3 -->

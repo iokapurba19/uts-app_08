@@ -95,14 +95,6 @@
                                     class="text-blue-600 hover:text-blue-800">Video 10</a></li>
                             </ul>
                     </div>
-                    <!-- Materi 7 -->
-                    <div class="bg-white p-4 border border-gray-300 shadow-sm">
-                        <h3 class="font-medium">Operators: Assignment and Arithmetic</h3>
-                        <ul class="list-none p-0 m-0">
-                            <li class="mb-2"><a href="https://youtu.be/iLDR0h0svcA?v=video10"
-                                    class="text-blue-600 hover:text-blue-800">Video 10</a></li>
-                            </ul>
-                    </div>
                     <!-- Materi 8 -->
                     <div class="bg-white p-4 border border-gray-300 shadow-sm">
                         <h3 class="font-medium">Operators: Relational and Logica</h3>

@@ -22,11 +22,6 @@ Route::get('/home', function () {
 
 Route::get('/materi', function () {
     return view('materi');
-})->name('materi');
+}) -> name('materi');
 
-Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post');
-
-// Rute untuk CookieController
-Route::get('/set-cookie', [CookieController::class, 'setCookie']);
-Route::get('/get-cookie', [CookieController::class, 'getCookie']);  // Diperbaiki 'geetCookie' menjadi 'getCookie'
-Route::get('/delete-cookie', [CookieController::class, 'deleteCookie']);
+Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post'); 

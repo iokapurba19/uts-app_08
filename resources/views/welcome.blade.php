@@ -38,9 +38,9 @@
                         <h3 class="font-medium">Data Types</h3>
                         <ul class="list-none p-0 m-0">
                             <li class="mb-2"><a href="https://youtu.be/3WIeGL0VwFw?si=yJO7NzmFd0OcBmqO"
-                                    class="text-blue-600 hover:text-blue-800">Video 3</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Data</a></li>
                             <li class="mb-2"><a href="https://youtu.be/Nd-pTB7Kbzs?si=QZ0Kl4wQKLjpZuXP"
-                                    class="text-blue-600 hover:text-blue-800">Video 4</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Data Types</a></li>
                         </ul>
                     </div>
                     <!-- Materi 4 -->
@@ -48,11 +48,11 @@
                         <h3 class="font-medium">Variable & Constant</h3>
                         <ul class="list-none p-0 m-0">
                             <li class="mb-2"><a href="https://youtu.be/8HBWlcMMXCA?si=pTKEgirvt5VCEjQS"
-                                    class="text-blue-600 hover:text-blue-800">Video 5</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Variable</a></li>
                             <li class="mb-2"><a href="https://youtu.be/vFRal7Y05qA?si=IdvHuAuDi5-NBzmU"
-                                    class="text-blue-600 hover:text-blue-800">Video 6</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Constant</a></li>
                             <li class="mb-2"><a href="https://youtu.be/y96I1dQti9E?si=LaWT39mg6iCWQ_Yc"
-                                    class="text-blue-600 hover:text-blue-800">Video 7</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Variable & Constant (Simulation)</a></li>
                         </ul>
                     </div>
                     <!-- Materi 5 -->
@@ -60,21 +60,21 @@
                         <h3 class="font-medium">Operators</h3>
                         <ul class="list-none p-0 m-0">
                             <li class="mb-2"><a href="https://www.youtube.com/watch?v=CuYOHKctOAI"
-                                    class="text-blue-600 hover:text-blue-800">Video 8</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Operators</a></li>
                             <li class="mb-2"><a href="https://www.youtube.com/watch?v=qz5Mam0Iqo4"
-                                    class="text-blue-600 hover:text-blue-800">Video 9</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Arithmetic Operators</a></li>
                             <li class="mb-2"><a href="https://www.youtube.com/watch?v=uYXbFVgcEpY"
-                                    class="text-blue-600 hover:text-blue-800">Video 10</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Assignment Operators</a></li>
                             <li class="mb-2"><a href="https://www.youtube.com/watch?v=rQhGlaEWdlM"
-                                    class="text-blue-600 hover:text-blue-800">Video 11</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Relational Operators</a></li>
                             <li class="mb-2"><a href="https://www.youtube.com/watch?v=k5GCQMrX8hU"
-                                    class="text-blue-600 hover:text-blue-800">Video 12</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Logical Operators</a></li>
                             <li class="mb-2"><a href="https://www.youtube.com/watch?v=q7LCdJ8EMKg"
-                                    class="text-blue-600 hover:text-blue-800">Video 13</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Concatenation Operators</a></li>
                             <li class="mb-2"><a href="https://www.youtube.com/watch?v=agzEBTO-_8g"
-                                    class="text-blue-600 hover:text-blue-800">Video 14</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Operator Precedence</a></li>
                             <li class="mb-2"><a href="https://www.youtube.com/watch?v=-3z3LcMKI9s"
-                                    class="text-blue-600 hover:text-blue-800">Video 15</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Operators (Simulation)</a></li>
                         </ul>
                     </div>
                     <!-- Materi 6 -->
@@ -82,33 +82,9 @@
                         <h3 class="font-medium">Branching</h3>
                         <ul class="list-none p-0 m-0">
                             <li class="mb-2"><a href="https://www.youtube.com/watch?v=3EcyDA36qCM"
-                                    class="text-blue-600 hover:text-blue-800">Video 16</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Branching</a></li>
                             <li class="mb-2"><a href="https://www.youtube.com/watch?v=IYUojTzr2_U"
-                                    class="text-blue-600 hover:text-blue-800">Video 17</a></li>
-                        </ul>
-                    </div>
-                    <!-- Materi 7 -->
-                    <div class="bg-white p-4 border border-gray-300 shadow-sm">
-                        <h3 class="font-medium">Variable & Constant</h3>
-                        <ul class="list-none p-0 m-0">
-                            <li class="mb-2"><a href="https://youtu.be/8HBWlcMMXCA?si=pTKEgirvt5VCEjQS"
-                                    class="text-blue-600 hover:text-blue-800">Video 5</a></li>
-                            <li class="mb-2"><a href="https://youtu.be/vFRal7Y05qA?si=IdvHuAuDi5-NBzmU"
-                                    class="text-blue-600 hover:text-blue-800">Video 6</a></li>
-                            <li class="mb-2"><a href="https://youtu.be/y96I1dQti9E?si=LaWT39mg6iCWQ_Yc"
-                                    class="text-blue-600 hover:text-blue-800">Video 7</a></li>
-                        </ul>
-                    </div>
-                    <!-- Materi 8 -->
-                    <div class="bg-white p-4 border border-gray-300 shadow-sm">
-                        <h3 class="font-medium">Variable & Constant</h3>
-                        <ul class="list-none p-0 m-0">
-                            <li class="mb-2"><a href="https://youtu.be/8HBWlcMMXCA?si=pTKEgirvt5VCEjQS"
-                                    class="text-blue-600 hover:text-blue-800">Video 5</a></li>
-                            <li class="mb-2"><a href="https://youtu.be/vFRal7Y05qA?si=IdvHuAuDi5-NBzmU"
-                                    class="text-blue-600 hover:text-blue-800">Video 6</a></li>
-                            <li class="mb-2"><a href="https://youtu.be/y96I1dQti9E?si=LaWT39mg6iCWQ_Yc"
-                                    class="text-blue-600 hover:text-blue-800">Video 7</a></li>
+                                    class="text-blue-600 hover:text-blue-800">Branching (Simulation)</a></li>
                         </ul>
                     </div>
                 </div>

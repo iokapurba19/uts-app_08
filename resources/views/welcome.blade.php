@@ -43,13 +43,13 @@
         <!-- Card untuk Mata Kuliah PEMPROS -->
         <div class="bg-white p-5 mb-5 border border-gray-300 shadow-md cursor-pointer transition-transform transform hover:scale-105"
             onclick="location.href='{{ url('tut2/mata_kuliah.html?matkul=2') }}'">
-            <h2 class="text-xl font-semibold">PBO</h2>
+            <h2 class="text-xl font-semibold">PEMPROS</h2>
             <div class="mt-3">
                 <!-- Card untuk Materi -->
                 <div class="flex space-x-4 overflow-x-auto">
                     <!-- Materi 1 -->
                     <div class="bg-white p-4 border border-gray-300 shadow-sm">
-                        <h3 class="font-medium">Procedural Programming <br>LifeCycle</br></h3>
+                        <h3 class="font-medium">Materi 1</h3>
                         <ul class="list-none p-0 m-0">
                             <li class="mb-2"><a href="https://www.youtube.com/watch?v=video5"
                                     class="text-blue-600 hover:text-blue-800">Video 5</a></li>
@@ -66,7 +66,6 @@
                             <li class="mb-2"><a href="https://www.youtube.com/watch?v=video8"
                                     class="text-blue-600 hover:text-blue-800">Video 8</a></li>
                         </ul>
-                    </div>
                     </div>
                 </div>
             </div>

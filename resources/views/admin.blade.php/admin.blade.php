@@ -64,7 +64,7 @@
                 <label class="block mb-2">Video Link:</label>
                 <input type="text" id="video-link" class="border border-gray-300 p-2 mb-4 w-full" placeholder="Enter video link">
                 
-                <label class="block mb-2">Custom URL:</label>
+                <label class="block mb-2">Video Alias:</label>
                 <input type="text" id="text-alias" class="border border-gray-300 p-2 mb-4 w-full" placeholder="Enter text alias">
                 
                 <div class="flex justify -between">
@@ -101,7 +101,7 @@
                         <div class="bg-white p-4 border border-gray-300 shadow-sm">
                             <h3 class="font-medium">${materialName}</h3>
                             <ul class="list-none p-0 m-0">
-                                <li class="mb-2"><a href="${videoLink}" class="text-blue-600 hover:text-blue-800">${textAlias}</a></li>
+                                <li class="mb-2"><a href="${textAlias}" class="text-blue-600 hover:text-blue-800">${textAlias}</a></li>
                             </ul>
                             <!-- Admin buttons -->
                             <div class="flex space-x-2 mt-2">

@@ -20,6 +20,7 @@
             <li><a href="#" class="hover:text-gray-800">Home</a></li>
             <li><a href="#" class="hover:text-gray-800">About</a></li>
             <li><a href="#" class="hover:text-gray-800">Contact</a></li>
+            <li><a href="shorten" class="hover:text-gray-800">URLShortener</a></li>
             <div class="mt-4 md:mt-0">
                             <a href="{{ url('/login') }}" class="bg-blue-900 text-white px-4 py-2 ml-0 rounded-md">Login</a>
                             <!-- <a href="{{ url('/register') }}" class="bg-blue-900 text-white px-4 py-2 rounded-md">Register</a> -->

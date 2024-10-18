@@ -2,23 +2,30 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CookieController;  // Tambahkan ini untuk mengimpor CookieController
+use App\Http\Controllers\UrlShortenerController;
+
+Route::get('/shorten', function () {
+    return view('shortener');
+});
+
+Route::post('/shorten', [UrlShortenerController::class, 'shortenUrl'])->name('shorten.url');
 
 Route::get('/', function () {
     return view('welcome');
-}) -> name('welcome');
+})->name('welcome');
 
 Route::get('/login', function () {
     return view('login');
-}) -> name('login');
+})->name('login');
 
 Route::get('/test', function () {
     return view('test');
-}) -> name('test');
+})->name('test');
 
 Route::get('/home', function () {
     return view('homepage');
-}) -> name('home');
-
+})->name('home');
 
 Route::get('/materi', function () {
     return view('materi');
@@ -110,7 +117,3 @@ Route::get('/Branching Simulation', function () {
 
 
 Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post'); 
-
-Route::get('/admin', [AuthController::class, 'admin'])->name('ada'); 
-
-Route::get('/video', [AuthController::class, 'video'])->name('video'); 

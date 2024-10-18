@@ -24,8 +24,19 @@ Route::get('/materi', function () {
     return view('materi');
 }) -> name('materi');
 
+Route::get('/materi', function () {
+    return view('url/');
+}) -> name('materi');
+
+Route::get('/video1', function () {
+    return redirect('https://www.youtube.com/watch?v=zo9bYyxKs6c&ab_channel=DasarPemrograman');
+
+}) -> name('materi');
+
+
+
 Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post'); 
 
-Route::get('/admin', [AuthController::class, 'admin'])->name('admin'); 
+Route::get('/admin', [AuthController::class, 'admin'])->name('ada'); 
 
 Route::get('/video', [AuthController::class, 'video'])->name('video'); 

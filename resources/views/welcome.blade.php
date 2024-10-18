@@ -46,14 +46,14 @@
             <h2 class="text-xl font-semibold">PEMPROS</h2>
             <div class="mt-3">
                 <!-- Card untuk Materi -->
-                <div class="mb-4 flex space-x-4 overflow-x-auto">
+                <div class="flex space-x-4 overflow-x-auto">
                     <!-- Materi 1 -->
                     <div class="bg-white p-4 border border-gray-300 shadow-sm">
                         <h3 class="font-medium">Programming Paradigm</h3>
                         <ul class="list-none p-0 m-0">
                             <li class="mb-2"><a href="https://youtu.be/JwHW6k0LM5M?v=video5"
                                     class="text-blue-600 hover:text-blue-800">Video 5</a></li>
-                        </ul>
+                            </ul>
                     </div>
                     <!-- Materi 2 -->
                     <div class="bg-white p-4 border border-gray-300 shadow-sm">
@@ -61,14 +61,56 @@
                         <ul class="list-none p-0 m-0">
                             <li class="mb-2"><a href="https://youtu.be/r6gSF1OrzPs?v=video6"
                                     class="text-blue-600 hover:text-blue-800">Video 6</a></li>
-                        </ul>
+                            </ul>
                     </div>
                     <!-- Materi 3 -->
                     <div class="bg-white p-4 border border-gray-300 shadow-sm">
                         <h3 class="font-medium">Stream: The Basic Concepts</h3>
                         <ul class="list-none p-0 m-0">
-                            <li class="mb-2"><a href="https://youtu.be/8o1rkL_HuEE?v=video7"
+                            <li class="mb-2"><a href=" https://youtu.be/8o1rkL_HuEE?v=video7"
                                     class="text-blue-600 hover:text-blue-800">Video 7</a></li>
+                            </ul>
+                    </div>
+                    <!-- Materi 4 -->
+                    <div class="bg-white p-4 border border-gray-300 shadow-sm">
+                        <h3 class="font-medium">Data&Data Types</h3>
+                        <ul class="list-none p-0 m-0">
+                            <li class="mb-2"><a href=" https://youtu.be/8PS_VtwFqzY?v=video8"
+                                    class="text-blue-600 hover:text-blue-800">Video 8</a></li>
+                            </ul>
+                    </div>
+                    <!-- Materi 5 -->
+                    <div class="bg-white p-4 border border-gray-300 shadow-sm">
+                        <h3 class="font-medium">Variable and Constant</h3>
+                        <ul class="list-none p-0 m-0">
+                            <li class="mb-2"><a href="https://youtu.be/iL-xrDlKBqQ?v=video9"
+                                    class="text-blue-600 hover:text-blue-800">Video 9</a></li>
+                            </ul>
+                    </div>
+                    <!-- Materi 6 -->
+                    <div class="bg-white p-4 border border-gray-300 shadow-sm">
+                        <h3 class="font-medium">Operators: Assignment and Arithmetic</h3>
+                        <ul class="list-none p-0 m-0">
+                            <li class="mb-2"><a href="https://youtu.be/iLDR0h0svcA?v=video10"
+                                    class="text-blue-600 hover:text-blue-800">Video 10</a></li>
+                            </ul>
+                    </div>
+                    <!-- Materi 7 -->
+                    <div class="bg-white p-4 border border-gray-300 shadow-sm">
+                        <h3 class="font-medium">Operators: Assignment and Arithmetic</h3>
+                        <ul class="list-none p-0 m-0">
+                            <li class="mb-2"><a href="https://youtu.be/iLDR0h0svcA?v=video10"
+                                    class="text-blue-600 hover:text-blue-800">Video 10</a></li>
+                            </ul>
+                    </div>
+                    <!-- Materi 8 -->
+                    <div class="bg-white p-4 border border-gray-300 shadow-sm">
+                        <h3 class="font-medium">Operators: Relational and Logica</h3>
+                        <ul class="list-none p-0 m-0">
+                            <li class="mb-2"><a href="https://youtu.be/ZBX9Fj1zMC4?v=video11"
+                                    class="text-blue-600 hover:text-blue-800">Video 11</a></li>
+                            </ul>
+                    </div>
                 </div>
             </div>
         </div>

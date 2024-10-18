@@ -11,6 +11,10 @@ Route::get('/login', function () {
     return view('login');
 }) -> name('login');
 
+Route::get('/test', function () {
+    return view('test');
+}) -> name('test');
+
 Route::get('/home', function () {
     return view('homepage');
 }) -> name('home');

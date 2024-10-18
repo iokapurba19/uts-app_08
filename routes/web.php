@@ -21,3 +21,7 @@ Route::get('/materi', function () {
 }) -> name('materi');
 
 Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post'); 
+
+Route::get('/admin', [AuthController::class, 'admin'])->name('admin'); 
+
+Route::get('/video', [AuthController::class, 'video'])->name('video'); 

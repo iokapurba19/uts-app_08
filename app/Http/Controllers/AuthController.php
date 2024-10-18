@@ -8,12 +8,21 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
+
+    function admin(){
+        return view('admin.admin');
+    }
+
     function login(){
         return view('login');
     }
     
     function register(){
         return view('register');
+    }
+    
+    function video(){
+        return view('https://www.youtube.com/watch?v=zo9bYyxKs6c&ab_channel=DasarPemrograman');
     }
 
     function loginPost(Request $request){
@@ -23,7 +32,7 @@ class AuthController extends Controller
         ]);
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
-            return redirect(route('welcome'));
+            return redirect(route('admin'));
         }
         return view('login');
         // return redirect(route('home'))->with("error","Login details are not valid");

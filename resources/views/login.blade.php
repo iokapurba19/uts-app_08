@@ -111,7 +111,6 @@
 
 <body>
 
-    <div class="big-card"></div>
         <div class="wrapper">
             <form method="POST" action="{{route('login.post')}}">
                 @csrf

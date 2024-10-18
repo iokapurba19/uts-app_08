@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 
-class AuthManager extends Controller
+class AuthController extends Controller
 {
     function login(){
         return view('login');
@@ -23,14 +23,7 @@ class AuthManager extends Controller
         ]);
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
-            // return redirect(route('home'));
-            if(Auth::user()->role == 'admin'){
-                return view('admin.admin');
-            }
-            // if(Auth::admin_role()->role == 'admin'){
-            //     return view('admin.admin');
-            // }
-            return view('home');
+            return redirect(route('welcome'));
         }
         return view('login');
         // return redirect(route('home'))->with("error","Login details are not valid");

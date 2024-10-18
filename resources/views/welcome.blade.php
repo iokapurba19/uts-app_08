@@ -8,9 +8,10 @@
 </head>
 <!-- resources/views/home.blade.php -->
 <body class="bg-gray-100">
+    <a href="login">LOGIN</a>
     <div class="max-w-3xl mx-auto p-6 border border-gray-300 shadow-lg bg-white mt-10">
         <!-- Card mata kuliah -->
-        <div class="bg-white p-5 mb-5 border border-gray-300 shadow-md cursor-pointer transition-transform transform hover:scale-105" onclick="location.href='{{ url('/materi') }}'">
+        <div class="bg-white p-5 mb-5 border border-gray-300 shadow-md cursor-pointer transition-transform transform hover:scale-105" onclick="">
             <h2 class="text-xl font-semibold">PEMVIS</h2>
             <div class="mt-3">
                 <!-- Card materi -->

@@ -35,15 +35,6 @@
             box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
         }
 
-        .big-card {
-            width: 420px;
-            padding: 30px;
-            background: white;
-            color: black;
-            border-radius: 15px;
-            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
-        }
-
         .wrapper h1 {
             font-size: 36px;
             text-align: center;
@@ -111,7 +102,7 @@
 
 <body>
 
-    <div class="big-card">
+    <div class="big-card"></div>
         <div class="wrapper">
             <form method="POST" action="{{route('login.post')}}">
                 @csrf
@@ -140,6 +131,5 @@
                 </div>
             </form>
         </div>
-    </div>
 </body>
 </html> 

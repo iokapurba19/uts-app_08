@@ -53,4 +53,9 @@ Route::get('/video1', function () {
 
 
 
-Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post'); 
+Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post');
+
+// Tambahkan rute untuk CookieController
+Route::get('/set-cookie', [CookieController::class, 'setCookie'])->name('set.cookie'); // Rute untuk mengatur cookie
+Route::get('/get-cookie', [CookieController::class, 'getCookie'])->name('get.cookie'); // Rute untuk mengambil cookie
+Route::get('/delete-cookie', [CookieController::class, 'deleteCookie'])->name('delete.cookie'); // Rute untuk menghapus cookie

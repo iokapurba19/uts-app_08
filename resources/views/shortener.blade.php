@@ -3,9 +3,9 @@
 @section('title', 'URL Shortener')
 
 @section('content')
-<div class="bg-gray-100 flex items-center justify-center mb-40">
+<div class="bg-gray-100 flex items-center justify-center mb-50">
 
-    <div class="w-full max-w-md">
+    <div class="w-full max-w-md mt-20">
         <form action="{{ route('shorten.url') }}" method="POST" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
             @csrf
             <h2 class="text-center text-2xl font-bold mb-4">URL Shortener</h2>
